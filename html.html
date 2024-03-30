@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Landing Page</title>
+    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="shortcut icon" href="logo.png"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    
+    <section class="section1" id="hello">
+        <nav>
+            <div id="CONTAIN">
+        <div class="NAV1">
+        <header>
+            <a href="#" class="logo"><img src="logo.png"></a>
+            <div class="nav">
+            <ul id="navigation">
+                <li><a class="ul"  onmouseover="hoverText1()" id="ul1" href="#">Home</a></li>
+                <li><a href="#About" id="ul1" onmouseover="hoverText1()">About</a></li>
+                <li><a href="#SERVICES" id="ul1" onmouseover="hoverText1()">Services</a></li>
+                <li><a href="#Products" id="ul1" onmouseover="hoverText1()">Purchase</a></li>
+                <li><a href="#" id="ul1" onmouseover="hoverText1()">Reviews</a></li>
+                <li><a href="#contact" id="ul1" onmouseover="hoverText1()">Contact</a></li>
+                <li><a id="nika">made by Niharika Thakur</a></li>
+            </ul>
+        </div>
+    </div>
+</div>i
+        </header>
+    </nav>
+            <div class="section2" id="sec"></div>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just Shoes<br> It's<span class="slogan" id="sloga"> Nike</span></h2>
+                <p>Serve your undeniable style in the iconic versatility of a hoops legend.</p>
+             <!--   <a id="box" href="#">Learn More</a>-->
+             <button id="button" type="submit">Learn More</button>
+
+            </div>
+            <div class="imgBox">
+                <img src="greenshoe2.png" class="nike">
+            </div>
+        </div>
+
+    </section>  
+        <ul class="thumb">
+            <li><img src="blueshoe.png" 
+                id="img1" onclick="Section2('blue');ButtonColor('rgb(148, 197, 239)');imageSlider('BLUEshoe1.png'); changeImageSize();changeColor('blue');changeTextColor('rgb(70, 210, 248)');changeLearnMore1('rgb(147, 224, 245)');learnMoreDefault();"  class="blue"></li>
+            <li><img src="greenshoe.png" onclick="Section2('green');ButtonColor('#ccee66');imageSlider('greenshoe2.png');changeImageSize2();changeColor('green');changeTextColor('#8acf0a');changeLearnMore1('#ccee66');learnMoreDefault();" class="green"></li>
+            <li><img src="redshoe.png" onclick="Section2('red');ButtonColor('rgb(242, 133, 151)');imageSlider('redshoe.png');changeImageSize3();changeColor('red');changeTextColor('rgb(252, 14, 62)');changeLearnMore1('rgb(237, 91, 120)');learnMoreDefault();" class="orange"></li>
+        </ul>
+
+         <!----------------ABOUT-------------------------->
+
+         <div class="about" id="About">
+        
+            <h1>i<span>About Us</span>Us</h1>
+    
+            <div class="about_main">
+                <div class="about_image">
+                   
+    
+                    <div class="image_contaner">
+                        <img src="shoes4.png" id="imagebox" class="imagebox1">
+                    </div>
+    
+                </div>
+    
+                <div class="about_text">
+                    <p>
+                        We champion continual progress for athletes and sport by taking action to help athletes reach their potential.
+                         Every job at NIKE, Inc. is grounded in a team-first mindset, cultivating a culture of innovation and a shared
+                          purpose to leave an enduring impact.
+                          
+                          Nike is a multinational corporation that designs, develops, manufactures, and markets athletic footwear, apparel, equipment, and accessories. It is one of the world's largest suppliers of athletic shoes and apparel, as well as a major manufacturer of sports equipment.
+                          Founded in 1964 as Blue Ribbon Sports by Bill Bowerman and Phil Knight, Nike officially became Nike, Inc. in 1971. The company takes its name from the Greek goddess of victory, Nike. The iconic Nike "Swoosh" logo was created by Carolyn Davidson in 1971 and has since become one of the most recognizable logos globally.
+                          Nike offers a wide range of products for various sports and activities, including running, basketball, soccer, tennis, golf, and more. 
+                          
+                          
+                          
+                          
+                          
+                          
+                    </p>
+                </div>
+    
+            </div>
+    
+    
+            <script>
+                function functio(small){
+                    var full = document.getElementById("imagebox")
+                    full.src = small.src
+                }
+            </script>
+            
+        </div>
+
+
+                      <!----------------SERVICES-------------------------->
+
+                    <section class="service1" id="SERVICES">  
+<div class="box-container">
+                      <div class="services" id="Servises">
+                        <h1 id="OurS">our <span id="OurS">services</span></h1>
+                
+                        <div class="services_cards">
+                            <div class="services_box">
+                                <i id="icon" name="icons" class="fa-solid fa-truck-fast"></i>
+                                
+                                <h3>Fast Delivery</h3>
+                                <p>
+                                    We provide a very Fast Delivery Service.
+                                </p>
+                            </div>
+                
+                            <div class="services_box">
+                                <i id="icon" name="icons" class="fa-solid fa-rotate-left"></i>
+                                <h3>10 Days Replacement</h3>
+                                <p>
+                                 We provide 10 Days replacement if the product is damaged upon delivery.
+                                </p>
+                            </div>
+                
+                            <div class="services_box">
+                                <i id="icon"  class="fa-solid fa-headset"></i>
+                                <h3>24 x 7 Support</h3>
+                                <p>
+                                We provide 24 * 7 customer support.
+                                </p>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </section>
+                         <!----------------PRODUCTS-------------------------->
+
+
+        <div class="products" id="Products">
+            <h1>Products</h1>
+    
+            <div class="box">
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes1.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+                            Nike Orange Sports Shoe                         </p>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes2.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+Nike Black Sports Shoe                        </p>
+                        <h3>$200.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes3.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+                            Nike Purple Sports Shoe                         </p>
+                        <h3>$175.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes4.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+                            Nike Dark Blue Sports Shoe                         </p>
+                        <h3>$120.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes5.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+                            Nike Grey Sports Shoe                         </p>
+                        <h3>$150.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes6.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+                            Nike Orange Sports Shoe                         </p>
+                        <h3>$220.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+                            Nike Navy Blue Sports Shoe                         </p>
+                        <h3>$110.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+    
+                    <div class="image">
+                        <img src="shoes7.png">
+                    </div>
+    
+                    <div class="products_text">
+                        <h2>NIKE</h2>
+                        <p>
+                            Nike Red Sports Shoe                         </p>
+                        <h3>$150.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+ <!--=================================FOOTER=======================================-->
+ <footer>
+    <div class="footer_main" id="contact">
+        <div class="tag">
+            <h1>Contact</h1>
+            <a href="#"><i class="fa-solid fa-house"></i>123/Colombo/Sri Lanka</a>
+            <a href="#"><i class="fa-solid fa-phone"></i>+94 12 345 6789</a>
+            <a href="#"><i class="fa-solid fa-envelope"></i>contact@gmail.com</a>
+        </div>
+
+        <div class="tag">
+            <h1>Get Help</h1>
+            <a href="#" class="center">FAQ</a>
+            <a href="#" class="center">Shipping</a>
+            <a href="#" class="center">Returns</a>
+            <a href="#" class="center">Payment Options</a>
+        </div>
+
+        <div class="tag">
+            <h1>Our Stores</h1>
+            <a href="#" class="center">Sri Lanka</a>
+            <a href="#" class="center">USA</a>
+            <a href="#" class="center">India</a>
+            <a href="#" class="center">Japan</a>
+        </div>
+
+        <div class="tag">
+            <h1>Follw Us</h1>
+            <div class="social_link">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>                    
+            </div>
+        </div>
+
+        <div class="tag">
+            <h1>Newsletter</h1>
+            <div class="search_bar">
+                <input type="text" placeholder="You email id here">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+
+</body>
+
+
+    <script type="text/javascript">
+        function imageSlider(anything)
+    {
+        document.querySelector('.nike').src = anything; 
+        }
+        function changeImageSize() {
+  var image = document.querySelector(".nike");
+  image.style.marginLeft = "-650px";
+  image.style.marginTop = "20px";
+  image.style.width = "31em"; // Adjusted the value to "40px"
+  image.style.transform = "rotate(-25deg)";
+  image.style.filter = "drop-shadow(30px 48px 55px #161616)";
+}   
+function changeImageSize2() {
+  var image = document.querySelector(".nike");
+  image.style.marginLeft = "-650px";
+  image.style.marginTop = "20px";
+  image.style.width = "32em"; // Adjusted the value to "40px"
+  image.style.transform = "rotate(-25deg)";
+  image.style.filter = "drop-shadow(30px 48px 55px #161616)";
+  
+}
+function changeImageSize3() {
+  var image = document.querySelector(".nike");
+  image.style.marginLeft = "-650px";
+  image.style.marginTop = "20px";
+  image.style.width = "31em"; // Adjusted the value to "40px"
+  image.style.transform = "rotate(-25deg)";
+  image.style.filter = "drop-shadow(30px 48px 55px #161616)";
+}
+
+function ButtonColor(color)
+{
+       var obj=document.getElementById("button");
+       obj.style.backgroundColor=color;
+}
+ 
+    function changeColor(color) {
+  var section = document.getElementById("hello");
+  section.className = color + "-background";
+
+}
+function Section2(color) {
+  var section = document.getElementById("sec");
+  section.className = color + "-section2";
+
+}
+function changeTextColor(color)
+{
+    var obj = document.getElementById("sloga");
+    obj.style.color=color;
+    obj.style.textShadow = "0 0 10px " + color
+    "0 0 20px " + color
+    "0 0 40px " + color
+    "0 0 80px " + color
+    "0 0 120px " + color;
+    
+}
+// Add a listener for the `mouseover` event
+box.addEventListener('mouseover', function learnMoreDefault() {
+
+// Get the current background color
+var color = this.style.backgroundColor;
+
+// If the background color is not empty, change it to red
+if (color === '#ccee66') {
+  this.style.backgroundColor = 'red';
+}
+});
+
+// Add a listener for the `mouseout` event
+box.addEventListener('mouseout', function learnMoreDefault() {
+
+// Set the background color back to the original value
+this.style.backgroundColor = color;
+});
+
+
+box.addEventListener('mouseout', function changeLearnMore1(color) {
+    var cat = document.getElementById("box");
+    //var color = obj.style.background;
+    
+  //  if(color==='#ccee66') {
+        cat.style.background = "";
+  //  }
+});
+
+
+
+
+
+
+    
+    </script>
+</body>
+</html>
